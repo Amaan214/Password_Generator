@@ -1,9 +1,10 @@
 # Password Generator
 
 ## Features
-** Created a password generator using tkinter module.**
-** It has a default email.**
-** User can save the generated password and can also find the password from the list of the passwords based on website name using the search button.**
+**Created a password generator using tkinter module.**
+**It has a default email.**
+**User can save the generated password and can also find the password from the list of the passwords based on website name using the search button.**
+
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -22,9 +23,9 @@ python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
 ```
 
-Install required packages:
+Install all dependencies (reads from pyproject.toml)
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 
 **Sample `requirements.txt`:**
