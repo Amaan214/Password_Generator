@@ -29,15 +29,8 @@ pip install -r requirements.txt
 
 **Sample `requirements.txt`:**
 ```bash
-streamlit
-pandas
-numpy
-yfinance
-plotly
-praw
-scikit-learn
-seaborn
-matplotlib
-scipy
-joblib
+pyperclip
+random
+tkinter
+json
 ```
